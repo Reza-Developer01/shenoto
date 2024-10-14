@@ -2,7 +2,7 @@
 
 ** This website is redesign from shenoto website. thanks for watching **
 
-- ✨ [Demo Project](https://reza-developer01.github.io/tabs/)
+- ✨ [Demo Project](https://reza-developer01.github.io/shenoto/)
 
 - 👨‍💻 Developed by Reza Rashvand
 
