@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <!-- ==== Meta Tags ==== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ==== Title Website ==== -->
+    <title>شنوتو | خانه</title>
+
+    <!-- ==== Add Css Files ==== -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/grid.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/app.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+</head>
+
+<body>
+
+
+    <!-- ==== Pack Icon Website ==== -->
+    <svg id="svg">
+        <symbol id="menu" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M228,128a12,12,0,0,1-12,12H40a12,12,0,0,1,0-24H216A12,12,0,0,1,228,128ZM40,76H216a12,12,0,0,0,0-24H40a12,12,0,0,0,0,24ZM216,180H40a12,12,0,0,0,0,24H216a12,12,0,0,0,0-24Z">
+            </path>
+        </symbol>
+        <symbol id="user" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M234.38,210a123.36,123.36,0,0,0-60.78-53.23,76,76,0,1,0-91.2,0A123.36,123.36,0,0,0,21.62,210a12,12,0,1,0,20.77,12c18.12-31.32,50.12-50,85.61-50s67.49,18.69,85.61,50a12,12,0,0,0,20.77-12ZM76,96a52,52,0,1,1,52,52A52.06,52.06,0,0,1,76,96Z">
+            </path>
+        </symbol>
+        <symbol id="close" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M208.49,191.51a12,12,0,0,1-17,17L128,145,64.49,208.49a12,12,0,0,1-17-17L111,128,47.51,64.49a12,12,0,0,1,17-17L128,111l63.51-63.52a12,12,0,0,1,17,17L145,128Z">
+            </path>
+        </symbol>
+        <symbol id="apple-podcasts" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M161.36,130a40,40,0,1,0-66.72,0,28.35,28.35,0,0,0-4.52,4.51,27.86,27.86,0,0,0-5.42,23.67l12.75,56A27.87,27.87,0,0,0,124.77,236h6.46a27.87,27.87,0,0,0,27.32-21.79l12.75-56a27.86,27.86,0,0,0-5.42-23.67A28.35,28.35,0,0,0,161.36,130ZM128,92a16,16,0,1,1-16,16A16,16,0,0,1,128,92Zm19.89,60.88-12.74,56a4,4,0,0,1-3.92,3.12h-6.46a4,4,0,0,1-3.92-3.12l-12.74-56a3.92,3.92,0,0,1,.77-3.37A4,4,0,0,1,112,148H144a4,4,0,0,1,3.15,1.51A3.92,3.92,0,0,1,147.89,152.88ZM236,128a107.88,107.88,0,0,1-38,82.21A12,12,0,0,1,182.47,192a84,84,0,1,0-108.94,0A12,12,0,0,1,58,210.21,108,108,0,1,1,236,128Z">
+            </path>
+        </symbol>
+        <symbol id="book-open" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M232,44H160a43.86,43.86,0,0,0-32,13.85A43.86,43.86,0,0,0,96,44H24A12,12,0,0,0,12,56V200a12,12,0,0,0,12,12H96a20,20,0,0,1,20,20,12,12,0,0,0,24,0,20,20,0,0,1,20-20h72a12,12,0,0,0,12-12V56A12,12,0,0,0,232,44ZM96,188H36V68H96a20,20,0,0,1,20,20V192.81A43.79,43.79,0,0,0,96,188Zm124,0H160a43.71,43.71,0,0,0-20,4.83V88a20,20,0,0,1,20-20h60ZM164,96h32a12,12,0,0,1,0,24H164a12,12,0,0,1,0-24Zm44,52a12,12,0,0,1-12,12H164a12,12,0,0,1,0-24h32A12,12,0,0,1,208,148Z">
+            </path>
+        </symbol>
+        <symbol id="music-note" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M211.45,52.51l-80-24A12,12,0,0,0,116,40V140.22A52,52,0,1,0,140,184V104.13l64.55,19.36A12,12,0,0,0,220,112V64A12,12,0,0,0,211.45,52.51ZM88,212a28,28,0,1,1,28-28A28,28,0,0,1,88,212ZM196,95.87l-56-16.8V56.13l56,16.8Z">
+            </path>
+        </symbol>
+        <symbol id="caret-down" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z">
+            </path>
+        </symbol>
+        <symbol id="magnifying-glass" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M232.49,215.51,185,168a92.12,92.12,0,1,0-17,17l47.53,47.54a12,12,0,0,0,17-17ZM44,112a68,68,0,1,1,68,68A68.07,68.07,0,0,1,44,112Z">
+            </path>
+        </symbol>
+        <symbol id="arrow-left" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M228,128a12,12,0,0,1-12,12H69l51.52,51.51a12,12,0,0,1-17,17l-72-72a12,12,0,0,1,0-17l72-72a12,12,0,0,1,17,17L69,116H216A12,12,0,0,1,228,128Z">
+            </path>
+        </symbol>
+        <symbol id="play" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M240,128a15.74,15.74,0,0,1-7.6,13.51L88.32,229.65a16,16,0,0,1-16.2.3A15.86,15.86,0,0,1,64,216.13V39.87a15.86,15.86,0,0,1,8.12-13.82,16,16,0,0,1,16.2.3L232.4,114.49A15.74,15.74,0,0,1,240,128Z">
+            </path>
+        </symbol>
+        <symbol id="heart" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M240,102c0,70-103.79,126.66-108.21,129a8,8,0,0,1-7.58,0C119.79,228.66,16,172,16,102A62.07,62.07,0,0,1,78,40c20.65,0,38.73,8.88,50,23.89C139.27,48.88,157.35,40,178,40A62.07,62.07,0,0,1,240,102Z">
+            </path>
+        </symbol>
+        <symbol id="book-bookmark" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M208,20H72A36,36,0,0,0,36,56V224a12,12,0,0,0,12,12H192a12,12,0,0,0,0-24H60v-4a12,12,0,0,1,12-12H208a12,12,0,0,0,12-12V32A12,12,0,0,0,208,20ZM120,44h36v59l-10.51-8.41a12,12,0,0,0-15,0L120,103Zm76,128H72a35.59,35.59,0,0,0-12,2.06V56A12,12,0,0,1,72,44H96v84a12,12,0,0,0,19.5,9.37l22.49-18,22.51,18A12,12,0,0,0,180,128V44h16Z">
+            </path>
+        </symbol>
+        <symbol id="user-sound" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M152.5,164.53a72,72,0,1,0-89,0,124.08,124.08,0,0,0-48.69,35.75,12,12,0,0,0,18.38,15.44C46.88,199.42,71,180,108,180s61.12,19.42,74.81,35.72a12,12,0,1,0,18.38-15.44A124,124,0,0,0,152.5,164.53ZM60,108a48,48,0,1,1,48,48A48.05,48.05,0,0,1,60,108Zm192,0a143.09,143.09,0,0,1-11.61,56.73,12,12,0,1,1-22-9.46,120.48,120.48,0,0,0,0-94.54,12,12,0,1,1,22-9.46A143.09,143.09,0,0,1,252,108ZM207,64.76a108.26,108.26,0,0,1,0,86.48,12,12,0,0,1-22-9.62,84.35,84.35,0,0,0,0-67.24,12,12,0,1,1,22-9.62Z">
+            </path>
+        </symbol>
+        <symbol id="television" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M216,60H157l27.52-27.52a12,12,0,0,0-17-17L128,55,88.49,15.51a12,12,0,0,0-17,17L99,60H40A20,20,0,0,0,20,80V200a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V80A20,20,0,0,0,216,60ZM44,84h84V196H44ZM212,196H152V84h60Zm-44-80a16,16,0,1,1,16,16A16,16,0,0,1,168,116Zm32,48a16,16,0,1,1-16-16A16,16,0,0,1,200,164Z">
+            </path>
+        </symbol>
+        <symbol id="plus" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M228,128a12,12,0,0,1-12,12H140v76a12,12,0,0,1-24,0V140H40a12,12,0,0,1,0-24h76V40a12,12,0,0,1,24,0v76h76A12,12,0,0,1,228,128Z">
+            </path>
+        </symbol>
+        <symbol id="instagram" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24ZM128,176a48,48,0,1,1,48-48A48.05,48.05,0,0,1,128,176Zm60-96a12,12,0,1,1,12-12A12,12,0,0,1,188,80Zm-28,48a32,32,0,1,1-32-32A32,32,0,0,1,160,128Z">
+            </path>
+        </symbol>
+        <symbol id="linkedin" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24ZM96,176a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0ZM88,96a12,12,0,1,1,12-12A12,12,0,0,1,88,96Zm96,80a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140Z">
+            </path>
+        </symbol>
+        <symbol id="youtube" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-73.74,65-40,28A8,8,0,0,1,108,156V100a8,8,0,0,1,12.59-6.55l40,28a8,8,0,0,1,0,13.1Z">
+            </path>
+        </symbol>
+        <symbol id="telegram" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M228.88,26.19a9,9,0,0,0-9.16-1.57L17.06,103.93a14.22,14.22,0,0,0,2.43,27.21L72,141.45V200a15.92,15.92,0,0,0,10,14.83,15.91,15.91,0,0,0,17.51-3.73l25.32-26.26L165,220a15.88,15.88,0,0,0,10.51,4,16.3,16.3,0,0,0,5-.79,15.85,15.85,0,0,0,10.67-11.63L231.77,35A9,9,0,0,0,228.88,26.19ZM175.53,208,92.85,135.5l119-85.29Z">
+            </path>
+        </symbol>
+        <symbol id="twitter" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+            <path
+                d="M245.66,77.66l-29.9,29.9C209.72,177.58,150.67,232,80,232c-14.52,0-26.49-2.3-35.58-6.84-7.33-3.67-10.33-7.6-11.08-8.72a8,8,0,0,1,3.85-11.93c.26-.1,24.24-9.31,39.47-26.84a110.93,110.93,0,0,1-21.88-24.2c-12.4-18.41-26.28-50.39-22-98.18a8,8,0,0,1,13.65-4.92c.35.35,33.28,33.1,73.54,43.72V88a47.87,47.87,0,0,1,14.36-34.3A46.87,46.87,0,0,1,168.1,40a48.66,48.66,0,0,1,41.47,24H240a8,8,0,0,1,5.66,13.66Z">
+            </path>
+        </symbol>
+    </svg>
+
+
+    <!-- ==== Start Header ==== -->
+    <header class="header">
+        <div class="container">
+            <!-- navigation -->
+            <nav class="nav">
+                <!-- menu -->
+                <div class="nav__menu">
+                    <svg>
+                        <use href="#menu"></use>
+                    </svg>
+                </div>
+
+                <!-- logo -->
+                <a href="index.html" class="app-logo">
+                    <img src="./images/Logo.png" alt="logo website">
+                </a>
+
+                <!-- links -->
+                <div class="nav__link">
+                    <svg>
+                        <use href="#user"></use>
+                    </svg>
+                </div>
+
+                <!-- mobile menu -->
+                <div class="mobile-menu">
+                    <!-- header -->
+                    <div class="mobile-menu__header">
+                        <!-- logo -->
+                        <a href="index.html" class="app-logo">
+                            <img src="./images/Logo.png" alt="logo website">
+                        </a>
+
+                        <!-- close icon -->
+                        <div class="mobile-menu__close">
+                            <svg>
+                                <use href="#close"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <!-- menu -->
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <div>
+                                    <svg>
+                                        <use href="#apple-podcasts"></use>
+                                    </svg>
+                                    <span>پادکست</span>
+                                </div>
+                                <svg>
+                                    <use href="#caret-down"></use>
+                                </svg>
+                            </a>
+                            <!-- <div class="drop-down">
+                                <a href="#">هنر</a>
+                                <a href="#">کسب و کار</a>
+                                <a href="#">کمدی</a>
+                                <a href="#">آموزش</a>
+                                <a href="#">داستان</a>
+                                <a href="#">دولت و حکومت</a>
+                            </div> -->
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <div>
+                                    <svg>
+                                        <use href="#book-open"></use>
+                                    </svg>
+                                    <span>کتاب صوتی</span>
+                                </div>
+                                <svg>
+                                    <use href="#caret-down"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">
+                                <div>
+                                    <svg>
+                                        <use href="#music-note"></use>
+                                    </svg>
+                                    <span>موسیقی</span>
+                                </div>
+                                <svg>
+                                    <use href="#caret-down"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ==== Finish Header ==== -->
+
+
+    <!-- ==== Start Desktop Header ==== -->
+    <div class="desktop-header">
+        <div class="container">
+            <div class="desktop-header__wrapper">
+                <!-- navigation -->
+                <nav class="desktop-nav">
+                    <!-- logo -->
+                    <a href="index.html" class="app-logo">
+                        <img src="./images/Logo.png" alt="logo website">
+                    </a>
+
+                    <!-- menu -->
+                    <ul class="desktop-menu">
+                        <li class="desktop-menu__item">
+                            <a href="#" class="desktop-menu__link">
+                                <div>
+                                    <svg>
+                                        <use href="#apple-podcasts"></use>
+                                    </svg>
+                                    <span>پادکست</span>
+                                </div>
+                                <svg>
+                                    <use href="#caret-down"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a href="#" class="desktop-menu__link">
+                                <div>
+                                    <svg>
+                                        <use href="#book-open"></use>
+                                    </svg>
+                                    <span>کتاب صوتی</span>
+                                </div>
+                                <svg>
+                                    <use href="#caret-down"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="desktop-menu__item">
+                            <a href="#" class="desktop-menu__link">
+                                <div>
+                                    <svg>
+                                        <use href="#music-note"></use>
+                                    </svg>
+                                    <span>موسیقی</span>
+                                </div>
+                                <svg>
+                                    <use href="#caret-down"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- links -->
+                <div class="desktop-header__links">
+                    <div>
+                        <svg>
+                            <use href="#magnifying-glass"></use>
+                        </svg>
+                    </div>
+                    <div>
+                        <svg>
+                            <use href="#user"></use>
+                        </svg>
+                        <span>ورود به حساب کاربری</span>
+                        <svg>
+                            <use href="#arrow-left"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==== Finish Desktop Header ==== -->
+
+
+    <!-- ==== Start Main ==== -->
+    <main class="main">
+        <!-- ==== Start Section New Parts ==== -->
+        <section class="new-part">
+            <div class="container">
+                <!-- section head -->
+                <div class="section-head">
+                    <h2 class="section-title">
+                        <span class="section-title__text">جدیدترین قسمت‌ها</span>
+                        <svg class="section-title__icon">
+                            <use href="#arrow-left"></use>
+                        </svg>
+                    </h2>
+                    <h3 class="section-sub-title">پادکست‌های جذابی که قسمتی جدیدی از آن‌ها منتشر شده است.</h3>
+                </div>
+
+                <!-- banners -->
+                <div class="banners">
+                    <div class="banner">
+                        <!-- image banner -->
+                        <img src="./images/Banners/banner1.png" alt="banner 1">
+
+                        <!-- data -->
+                        <div class="banner-data">
+                            <!-- tags -->
+                            <div class="banner-data__tag">
+                                <img src="./images/image1.png" alt="image" class="banner-data__tag-logo">
+                                <span class="banner-data__tag-name">چنل بی</span>
+                            </div>
+
+                            <h1 class="banner-data__title">
+                                <a href="#">سریال عصر وحشت در اوکلاهاما</a>
+                            </h1>
+                            <p class="banner-data__desc">
+                                ماجرای یکی از تاریخی‌ترین پرونده‌های قتل‌های زنجیره‌ای در
+                                آمریکای قرن بیستم؛ قتل بومی‌های قبیله اوسیج، تاریخ اوکلاهما، داستان اف.بی‌آی
+                                ماجرای یکی از تاریخی‌ترین پرونده‌های قتل‌های زنجیره‌ای در
+                                آمریکای قرن بیستم؛ قتل بومی‌های قبیله اوسیج، تاریخ اوکلاهما، داستان اف.بی‌آی
+                                ماجرای یکی از تاریخی‌ترین پرونده‌های قتل‌های زنجیره‌ای در
+                                آمریکای قرن بیستم؛ قتل بومی‌های قبیله اوسیج، تاریخ اوکلاهما، داستان اف.بی‌آی
+                                ماجرای یکی از تاریخی‌ترین پرونده‌های قتل‌های زنجیره‌ای در
+                                آمریکای قرن بیستم؛ قتل بومی‌های قبیله اوسیج، تاریخ اوکلاهما، داستان اف.بی‌آی
+                                ماجرای یکی از تاریخی‌ترین پرونده‌های قتل‌های زنجیره‌ای در
+                                آمریکای قرن بیستم؛ قتل بومی‌های قبیله اوسیج، تاریخ اوکلاهما، داستان اف.بی‌آی
+                            </p>
+
+                            <!-- short information -->
+                            <div class="banner-data__info">
+                                <span>
+                                    <svg>
+                                        <use href="#play"></use>
+                                    </svg>
+                                    ۱۳,۰۳۹
+                                </span>
+                                <span></span>
+                                <span>
+                                    <svg>
+                                        <use href="#heart"></use>
+                                    </svg>
+                                    ۳۱۰
+                                </span>
+                            </div>
+
+                            <!-- banner btn -->
+                            <a href="#">
+                                <span>شنیدن</span>
+                                <svg>
+                                    <use href="#play"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="banner">
+                        <div class="banner__info">
+                            <div class="banner__guest-label">
+                                Guest
+                            </div>
+                            <h4 class="banner__guest-name">Mehrzad Samadi</h4>
+                            <span class="banner__guest-job">Software Engineer at NVIDIA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== Finish Section New Parts ==== -->
+
+
+        <!-- ==== Start Section Why Shenoto ==== -->
+        <section class="why-shenoto">
+            <div class="container">
+                <!-- section head -->
+                <div class="section-head">
+                    <h2 class="section-title">
+                        <span class="section-title__text">چرا شنوتو؟</span>
+                    </h2>
+                </div>
+
+                <!-- items -->
+                <div class="why-items">
+                    <!-- item -->
+                    <div class="why-item">
+                        <svg>
+                            <use href="#apple-podcasts"></use>
+                        </svg>
+
+                        <h2>پادکست گردی</h2>
+
+                        <p>
+                            بیش از ۱۰۰۰۰ کانال پادکست در بزرگترین پلتفرم صوتی فارسی
+                        </p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="why-item">
+                        <svg>
+                            <use href="#book-bookmark"></use>
+                        </svg>
+
+                        <h2>کتاب دوستی</h2>
+
+                        <p>
+                            بیش از ۲۰۰۰ کتاب صوتی تنها با پرداخت هزینه یک کتاب
+                        </p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="why-item">
+                        <svg>
+                            <use href="#user-sound"></use>
+                        </svg>
+
+                        <h2>پادکستری</h2>
+
+                        <p>
+                            آپلود پادکست و داشبورد حرفه‌ای برای آنالیز شنوندگان به صورت رایگان
+                        </p>
+                    </div>
+
+                    <!-- item -->
+                    <div class="why-item">
+                        <svg>
+                            <use href="#television"></use>
+                        </svg>
+
+                        <h2>پادکچری</h2>
+
+                        <p>
+                            از داشبورد برنامه‌سابز پادکست خود را Claim کنید و در شنوتو شنیده شوید.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== Finish Section Why Shenoto ==== -->
+
+
+        <!-- ==== Start Section Suggestion ==== -->
+        <section class="suggestion">
+            <div class="container">
+                <!-- section head -->
+                <div class="section-head">
+                    <h2 class="section-title">
+                        <span class="section-title__text">پادکست‌های پیشنهاد شنوتو</span>
+                        <svg class="section-title__icon">
+                            <use href="#arrow-left"></use>
+                        </svg>
+                    </h2>
+                    <h3 class="section-sub-title">
+                        پربازدیدترین پادکست‌ها تحت عنوان پیشنهاد شنوتو به شما معرفی می‌شوند.
+                    </h3>
+                </div>
+
+                <!-- items -->
+                <div class="suggestion-items">
+                    <!-- item -->
+                    <div class="suggestion-item">
+                        <img src="./images/Category/Category1.png" alt="category 1">
+
+                        <a href="#">بند تهران</a>
+                        <span>گپ و گفت</span>
+
+                        <button>
+                            <svg>
+                                <use href="#plus"></use>
+                            </svg>
+                            دنبال کنید
+                        </button>
+                    </div>
+
+                    <!-- item -->
+                    <div class="suggestion-item">
+                        <img src="./images/Category/Category2.png" alt="category 2">
+
+                        <a href="#">طبقه ۱۶</a>
+                        <span>صحبت در زمینه تکنولوژی</span>
+
+                        <button>
+                            <svg>
+                                <use href="#plus"></use>
+                            </svg>
+                            دنبال کنید
+                        </button>
+                    </div>
+
+                    <!-- item -->
+                    <div class="suggestion-item">
+                        <img src="./images/Category/Category3.png" alt="category 3">
+
+                        <a href="#">سانسوچی</a>
+                        <span>گپ و گفت</span>
+
+                        <button>
+                            <svg>
+                                <use href="#plus"></use>
+                            </svg>
+                            دنبال کنید
+                        </button>
+                    </div>
+
+                    <!-- item -->
+                    <div class="suggestion-item">
+                        <img src="./images/Category/Category4.png" alt="category 4">
+
+                        <a href="#">برادرز</a>
+                        <span>تاریخ، بایوگرافی</span>
+
+                        <button>
+                            <svg>
+                                <use href="#plus"></use>
+                            </svg>
+                            دنبال کنید
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== Finish Section Suggestion ==== -->
+
+
+        <!-- ==== Start Section Trend Podcasts ==== -->
+        <section class="trend-podcasts">
+            <div class="container">
+                <!-- section head -->
+                <div class="section-head">
+                    <h2 class="section-title">
+                        <span class="section-title__text">پرطرفدارترین قسمت‌های هر پادکست</span>
+                        <svg class="section-title__icon">
+                            <use href="#arrow-left"></use>
+                        </svg>
+                    </h2>
+                    <h3 class="section-sub-title">
+                        قسمت‌های جذاب هر پادکست در اینجا برای شما قرار داده شده است.
+                    </h3>
+                </div>
+
+                <!-- items -->
+                <div class="trend-podcasts-items">
+                    <!-- items -->
+                    <div class="trend-podcasts-item">
+                        <!-- banner -->
+                        <img src="./images/TrendPodcasts/trend-podcast1.png" alt="trend podcast 1">
+
+                        <!-- data -->
+                        <div>
+                            <!-- head -->
+                            <div>
+                                <img src="./images/TrendPodcasts/tags/tag1.png" alt="tag 1">
+                                <span>چنل بی | علی بندری</span>
+                            </div>
+
+                            <!-- information -->
+                            <div>
+                                <h3>
+                                    <a href="#">سریال عصر وحشت در اوکلاهاما</a>
+                                </h3>
+
+                                <div>
+                                    <span>
+                                        <svg>
+                                            <use href="#play"></use>
+                                        </svg>
+                                        ۱۳,۰۳۹
+                                    </span>
+                                    <span></span>
+                                    <span>
+                                        <svg>
+                                            <use href="#heart"></use>
+                                        </svg>
+                                        ۳۱۰
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- button -->
+                            <a href="#">
+                                <span>شنیدن</span>
+                                <svg>
+                                    <use href="#play"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- items -->
+                    <div class="trend-podcasts-item">
+                        <!-- banner -->
+                        <img src="./images/TrendPodcasts/trend-podcast2.png" alt="trend podcast 2">
+
+                        <!-- data -->
+                        <div>
+                            <!-- head -->
+                            <div>
+                                <img src="./images/TrendPodcasts/tags/tag2.png" alt="tag 2">
+                                <span>چیزکست | امید سرایی</span>
+                            </div>
+
+                            <!-- information -->
+                            <div>
+                                <h3>
+                                    <a href="#">قهوه (بخش اول)</a>
+                                </h3>
+
+                                <div>
+                                    <span>
+                                        <svg>
+                                            <use href="#play"></use>
+                                        </svg>
+                                        ۱۳,۰۳۹
+                                    </span>
+                                    <span></span>
+                                    <span>
+                                        <svg>
+                                            <use href="#heart"></use>
+                                        </svg>
+                                        ۳۱۰
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- button -->
+                            <a href="#">
+                                <span>شنیدن</span>
+                                <svg>
+                                    <use href="#play"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- items -->
+                    <div class="trend-podcasts-item">
+                        <!-- banner -->
+                        <img src="./images/TrendPodcasts/trend-podcast3.jpg" alt="trend podcast 3">
+
+                        <!-- data -->
+                        <div>
+                            <!-- head -->
+                            <div>
+                                <img src="./images/TrendPodcasts/tags/tag3.jpg" alt="tag 3">
+                                <span>رادیو راه | مجبتی شکوری</span>
+                            </div>
+
+                            <!-- information -->
+                            <div>
+                                <h3>
+                                    <a href="#">عشق | اپیزود اول</a>
+                                </h3>
+
+                                <div>
+                                    <span>
+                                        <svg>
+                                            <use href="#play"></use>
+                                        </svg>
+                                        ۱۳,۰۳۹
+                                    </span>
+                                    <span></span>
+                                    <span>
+                                        <svg>
+                                            <use href="#heart"></use>
+                                        </svg>
+                                        ۳۱۰
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- button -->
+                            <a href="#">
+                                <span>شنیدن</span>
+                                <svg>
+                                    <use href="#play"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- items -->
+                    <div class="trend-podcasts-item">
+                        <!-- banner -->
+                        <img src="./images/TrendPodcasts/trend-podcast4.jpg" alt="trend podcast 4">
+
+                        <!-- data -->
+                        <div>
+                            <!-- head -->
+                            <div>
+                                <img src="./images/TrendPodcasts/tags/tag4.jpg" alt="tag 4">
+                                <span>جافکری | امید سرایی</span>
+                            </div>
+
+                            <!-- information -->
+                            <div>
+                                <h3>
+                                    <a href="#">ما در این جهان چکار می‌کنیم؟</a>
+                                </h3>
+
+                                <div>
+                                    <span>
+                                        <svg>
+                                            <use href="#play"></use>
+                                        </svg>
+                                        ۱۳,۰۳۹
+                                    </span>
+                                    <span></span>
+                                    <span>
+                                        <svg>
+                                            <use href="#heart"></use>
+                                        </svg>
+                                        ۳۱۰
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- button -->
+                            <a href="#">
+                                <span>شنیدن</span>
+                                <svg>
+                                    <use href="#play"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== Finish Section Trend Podcasts ==== -->
+
+
+        <!-- ==== Start Section Trend Books ==== -->
+        <section class="trend-books">
+            <div class="container">
+                <!-- section head -->
+                <div class="section-head">
+                    <h2 class="section-title">
+                        <span class="section-title__text">پرطرفدارترین کتاب‌های صوتی</span>
+                        <svg class="section-title__icon">
+                            <use href="#arrow-left"></use>
+                        </svg>
+                    </h2>
+                    <h3 class="section-sub-title">
+                        پربازدیدترین کتاب‌های صوتی در این بخش معرفی می‌شوند.
+                    </h3>
+                </div>
+
+                <!-- items -->
+                <div class="trend-books-items">
+                    <!-- item -->
+                    <div class="trend-books-item">
+                        <!-- image -->
+                        <img src="./images/TrendBooks/img1.png" alt="img 1">
+
+                        <!-- data -->
+                        <div>
+                            <h3>
+                                <a href="#">جزء از کل</a>
+                            </h3>
+
+                            <span>استیو تولتز / ترجمه پیمان خاکسار</span>
+
+                            <p>
+                                توضیحات اپیزود تا ۳ خط اینجا قرار می‌گیرد؛ اپیزود تا ۳ خط اینجا قرار می‌گیرد؛ اپیزود
+                                تا
+                                ۳ خط اینجا قرار می‌گیرد؛ اپیزود تا ۳ خط اینجا قرار می‌گیرد؛
+                            </p>
+
+                            <div>
+                                <div>
+                                    <svg>
+                                        <use href="#user-sound"></use>
+                                    </svg>
+                                    <span>با صدای عادل فردوسی‌پور</span>
+                                </div>
+
+                                <a href="#">مشاهده جزئیات</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="trend-books-item">
+                        <!-- image -->
+                        <img src="./images/TrendBooks/img2.jpg" alt="img 2">
+
+                        <!-- data -->
+                        <div>
+                            <h3>
+                                <a href="#">جاسوس میلیارد دلاری</a>
+                            </h3>
+
+                            <span>دیوید ای. هافمن / ترجمه امیر مرزیان</span>
+
+                            <p>
+                                توضیحات اپیزود تا ۳ خط اینجا قرار می‌گیرد؛ اپیزود تا ۳ خط اینجا قرار می‌گیرد؛ اپیزود
+                                تا
+                                ۳ خط اینجا قرار می‌گیرد؛ اپیزود تا ۳ خط اینجا قرار می‌گیرد؛
+                            </p>
+
+                            <div>
+                                <div>
+                                    <svg>
+                                        <use href="#user-sound"></use>
+                                    </svg>
+                                    <span>با صدای امید سرایی</span>
+                                </div>
+
+                                <a href="#">مشاهده جزئیات</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="trend-books-item">
+                        <!-- image -->
+                        <img src="./images/TrendBooks/img3.jpg" alt="img 3">
+
+                        <!-- data -->
+                        <div>
+                            <h3>
+                                <a href="#">برادوی: نمایش مضحک زندگی</a>
+                            </h3>
+
+                            <span>فابریس کارو / ترجمه پیمان خاکسار</span>
+
+                            <p>
+                                توضیحات اپیزود تا ۳ خط اینجا قرار می‌گیرد؛ اپیزود تا ۳ خط اینجا قرار می‌گیرد؛ اپیزود
+                                تا
+                                ۳ خط اینجا قرار می‌گیرد؛ اپیزود تا ۳ خط اینجا قرار می‌گیرد؛
+                            </p>
+
+                            <div>
+                                <div>
+                                    <svg>
+                                        <use href="#user-sound"></use>
+                                    </svg>
+                                    <span>با صدای تهمینه میلانی</span>
+                                </div>
+
+                                <a href="#">مشاهده جزئیات</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- item -->
+                    <div class="trend-books-item">
+                        <!-- image -->
+                        <img src="./images/TrendBooks/img4.jpg" alt="img 4">
+
+                        <!-- data -->
+                        <div>
+                            <h3>
+                                <a href="#">روانی</a>
+                            </h3>
+
+                            <span>جیمز تیرمور / ترجمه پیمان خاکسار</span>
+
+                            <p>
+                                توضیحات اپیزود تا ۳ خط اینجا قرار می‌گیرد؛ اپیزود تا ۳ خط اینجا قرار می‌گیرد؛ اپیزود
+                                تا
+                                ۳ خط اینجا قرار می‌گیرد؛ اپیزود تا ۳ خط اینجا قرار می‌گیرد؛
+                            </p>
+
+                            <div>
+                                <div>
+                                    <svg>
+                                        <use href="#user-sound"></use>
+                                    </svg>
+                                    <span>با صدای پیمان خاکسار</span>
+                                </div>
+
+                                <a href="#">مشاهده جزئیات</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== Finish Section Trend Books ==== -->
+
+
+        <!-- ==== Start Section Beat ==== -->
+        <section class="beat">
+            <div class="container">
+                <!-- section head -->
+                <div class="section-head">
+                    <h2 class="section-title">
+                        <span class="section-title__text">موسیقی‌های بی‌کلام</span>
+                        <svg class="section-title__icon">
+                            <use href="#arrow-left"></use>
+                        </svg>
+                    </h2>
+                    <h3 class="section-sub-title">
+                        پربازدیدترین موسیقی‌های بی‌کلام در این بخش معرفی می‌شوند.
+                    </h3>
+                </div>
+
+                <!-- beat items -->
+                <div class="beat-items">
+                    <!-- item -->
+                    <div class="beat-item">
+                        <div>
+                            <img src="./images/Beat/image1.png" alt="beat 1">
+
+                            <div>
+                                <span>
+                                    ۱۲:۳۹
+                                </span>
+
+                                <span>
+                                    <svg>
+                                        <use href="#play"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+                        <h3>
+                            <a href="#">سمفونی ۱۳ باخ</a>
+                        </h3>
+
+                        <span>باد صبا</span>
+                    </div>
+
+                    <!-- item -->
+                    <div class="beat-item">
+                        <div>
+                            <img src="./images/Beat/image2.png" alt="beat 2">
+
+                            <div>
+                                <span>
+                                    ۱۲:۳۹
+                                </span>
+
+                                <span>
+                                    <svg>
+                                        <use href="#play"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+                        <h3>
+                            <a href="#">برترین آثار بتهوون</a>
+                        </h3>
+
+                        <span>سیاره‌ مشتری</span>
+                    </div>
+
+                    <!-- item -->
+                    <div class="beat-item">
+                        <div>
+                            <img src="./images/Beat/image3.png" alt="beat 3">
+
+                            <div>
+                                <span>
+                                    ۱۲:۳۹
+                                </span>
+
+                                <span>
+                                    <svg>
+                                        <use href="#play"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+                        <h3>
+                            <a href="#">شهر خاموش کیهان کلهر</a>
+                        </h3>
+
+                        <span>استودیو امید</span>
+                    </div>
+
+                    <!-- item -->
+                    <div class="beat-item">
+                        <div>
+                            <img src="./images/Beat/image4.png" alt="beat 4">
+
+                            <div>
+                                <span>
+                                    ۱۲:۳۹
+                                </span>
+
+                                <span>
+                                    <svg>
+                                        <use href="#play"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+                        <h3>
+                            <a href="#">سمفونی ۱۳ باخ</a>
+                        </h3>
+
+                        <span>استودیو امید</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== Finish Section Beat ==== -->
+    </main>
+    <!-- ==== Finish Main ==== -->
+
+
+    <!-- ==== Start Footer ==== -->
+    <footer class="footer">
+        <!-- logo -->
+        <a href="index.html" class="app-logo">
+            <img src="./images/Logo.png" alt="logo website">
+        </a>
+
+        <!-- description -->
+        <p>تمامی حقوق این وبسایت متعلق به <strong>امیررضا رشوند</strong> است.</p>
+
+        <ul>
+            <li>
+                <a href="#">درباره ما</a>
+            </li>
+            <li>
+                <a href="#">ارتباط با ما</a>
+            </li>
+            <li>
+                <a href="#">سوالات متداول</a>
+            </li>
+            <li>
+                <a href="#">بلاگ</a>
+            </li>
+        </ul>
+
+        <div>
+            <svg>
+                <use href="#twitter"></use>
+            </svg>
+            <svg>
+                <use href="#telegram"></use>
+            </svg>
+            <svg>
+                <use href="#youtube"></use>
+            </svg>
+            <svg>
+                <use href="#linkedin"></use>
+            </svg>
+            <svg>
+                <use href="#instagram"></use>
+            </svg>
+        </div>
+    </footer>
+    <!-- ==== Finish Footer ==== -->
+
+
+    <!-- ==== Cover For Mobile Menu ==== -->
+    <div class="cover"></div>
+    <!-- ==== Cover For Mobile Menu ==== -->
+
+
+    <!-- ==== Add Js File ==== -->
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
